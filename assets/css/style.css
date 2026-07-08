@@ -19,6 +19,10 @@ h1, h2 {
     color: #184f63; /*dark-blue*/
 }
 
+.sharp-corners{
+    border-radius: 0;
+}
+
 /*About section*/
 
 #about {
@@ -56,3 +60,8 @@ h1, h2 {
 }
 
 /* Media querie for large screen 1200px*/
+@media screen and (min-width: 1200px) {
+    #portfolio .card-text{
+        min-height: auto;
+    }
+}
