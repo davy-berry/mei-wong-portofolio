@@ -19,7 +19,7 @@ h1, h2 {
     color: #184f63; /*dark-blue*/
 }
 
-.sharp-corners{
+.sharp-corners, .sharp-corners * {
     border-radius: 0;
 }
 
