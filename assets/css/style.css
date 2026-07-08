@@ -59,6 +59,16 @@ h1, h2 {
     padding: 5% 7%;
 }
 
+.button-custon{
+    background-color: #1f7798;
+    border: #1f7798;
+
+    & .button-custon:hover {
+        background-color: #1d6d8a;
+        border: #1d6d8a;
+    }
+}
+
 /* Media querie for large screen 1200px*/
 @media screen and (min-width: 1200px) {
     #portfolio .card-text{
